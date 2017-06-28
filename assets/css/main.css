@@ -81,5 +81,11 @@ font-family: 'Merriweather', serif;
     top: 50%;
     left: 50%;
     transform: translate(-80%, -50%);
-    color: rgb(115, 115, 115);
+    color: rgb(85, 85, 85);
+}
+
+#cheesephoto {
+  height: 500px;
+  transform: translate(178%, -120%);
+  position: absolute;
 }
