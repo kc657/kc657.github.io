@@ -2,12 +2,47 @@ body, html {
     height: 100%;
 }
 
-nav {
+.topnavbar {
+  background: rgb(115,115,115);
+  height: 100%;
+  padding: 4px 0px 4px 4px;
+}
+
+.navbarlist {
+  margin: 0 0 0 0;
+  height: 100%;
+  text-align: right;
+}
+
+li{
+  /*border:2px solid black;*/
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-family: 'Merriweather', serif;
+  display: inline;
+  margin:20px;
+  border-radius: 50px;
+  line-height: 20px;
+}
+.toplinks {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+
+img {
+  height: 100%;
+  width: 100%;
+}
+ /*old nav bar*/
+/*nav {
   float:left;
   display: inline-block;
   width: 100%;
-  margin: -20px;
-  /*border: 2px solid black;*/
+  border: 2px solid black;
   list-style-type: none;
 }
 
@@ -20,23 +55,17 @@ li {
   text-decoration: none;
   color: black;
   font-weight: bold;
-}
-
-.toplinks {
-  font-family: 'Merriweather', serif;
-  font-size: 14px;
-  text-decoration: none;
-  color: black;
-  /*border: 1px solid black;*/
-}
-
-/*.clearfix{
-  clear:both;
 }*/
+
+
+
+.clearfix{
+  clear:both;
+}
 
 .hero-image {
     background-image: url('../imgs/maintrain.jpg');
-    height: 100%;
+    height: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,6 +102,11 @@ button {
   background-color: rgb(115, 115, 115);
 }
 
+a {
+  color: rgb(115, 115, 115);
+  text-decoration: none;
+}
+
 .hero-text-about-me {
 font-family: 'Merriweather', serif;
     font-size: 40px;
@@ -82,10 +116,45 @@ font-family: 'Merriweather', serif;
     left: 50%;
     transform: translate(-80%, -50%);
     color: rgb(85, 85, 85);
+    padding:50px 0 0 0;
 }
 
-#cheesephoto {
-  height: 500px;
-  transform: translate(178%, -120%);
-  position: absolute;
+
+
+.about {
+  position:relative;
+  width:100%;
+  height:470px;
+  background-color: #B4B4B4;
+}
+.abouttext {
+  /*border: 2px solid red;*/
+  width:55%;
+  float:right;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 50px 0 0;
+}
+.aboutphoto {
+  /*border: 2px solid green;*/
+  float:left;
+  font-family: 'Merriweather', serif;
+  width: 30%;
+  padding: 20px 0 0 20px;
+}
+
+#cheesejpg {
+  height: 100%;
+}
+
+#connectWithMe {
+  weight: bold;
+}
+
+.botnavbar {
+  /*border:2px solid black;*/
+  background: rgb(115,115,115);
+  padding: 4px 0px 4px 4px;
 }
