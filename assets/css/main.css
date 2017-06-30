@@ -43,27 +43,6 @@ img {
   height: 100%;
   width: 100%;
 }
- /*old nav bar*/
-/*nav {
-  float:left;
-  display: inline-block;
-  width: 100%;
-  border: 2px solid black;
-  list-style-type: none;
-}
-
-li {
-  float:left;
-  padding: 20px 20px;
-  position: left;
-  list-style-type: none;
-  font-family: 'Merriweather', serif;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}*/
-
-
 
 .clearfix{
   clear:both;
@@ -71,7 +50,7 @@ li {
 
 .hero-image {
     background-image: url('../imgs/maintrain.jpg');
-    height: 90%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
