@@ -32,6 +32,12 @@ li{
   color: white;
 }
 
+.toplinks_hover {
+  color: black;
+  font-size:110%;
+  font-weight: bold;
+}
+
 
 img {
   height: 100%;
